@@ -1,6 +1,8 @@
 # nodemailer-and-gmail
 
 In this project, I have used nodemailer and googleapis to send email to any user's account.
+Here, I have send html template to the user.
+You can this project to send email templates for **Password Reset** or **Email Confirmation** to the user.
 
 ## nodemailer
 
