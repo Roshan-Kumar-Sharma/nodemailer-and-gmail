@@ -50,7 +50,7 @@ async function sendMail() {
             to: "Receipient Email",
             subject: "Subject",
             text: "Sending hello from my nodemailer and gmail API",
-            html: { path: "./index.html" },
+            html: { path: "./email-templates/index.html" },
         };
 
         const result = await tranporter.sendMail(mailOptions);
